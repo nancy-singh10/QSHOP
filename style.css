@@ -1,0 +1,86 @@
+
+#Wear {
+  background-color: yellow;
+}
+
+.hover-effect {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+
+.hover-effect a {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  background-color: #566f86;
+  color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.hover-effect:hover a {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover-effect a:nth-child(1) {
+  top: 0%;
+  left: 0%;
+}
+
+.hover-effect a:nth-child(2) {
+  top: 150%;
+  left: 80%;
+}
+
+.hover-effect a:nth-child(3) {
+  top: 300%;
+  left: 160%;
+}
+
+#des {
+  background-image: linear-gradient(yellow, goldenrod);
+}
+
+#des1 {
+  background-color: rgb(220, 247, 250);
+}
+
+#des2 {
+  background-color: lightgreen;
+}
+#des3{
+  background-color: aliceblue;
+}
+#des4 {
+  background-image: linear-gradient(aliceblue,rgb(186, 238, 144));
+}
+#t1{
+  text-align: center;
+  font-size: 200%;
+  
+}
+.center{
+  display: block;
+  margin-left: 35%;
+  
+}
+#f1{
+  font-size: 200%;
+  font-family: 'Times New Roman';
+}
+#t2{
+  text-align: center;
+  font-size: 200%;
+}
+#des5{
+  background-image: linear-gradient(white, rgb(231, 231, 53));
+}
+#des6{
+  background-image: linear-gradient( rgb(243, 243, 134),white);
+}
